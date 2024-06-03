@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Fri Mar  8 20:44:27 2024
+# Process ID: 63716
+# Current directory: C:/Users/lqy/Desktop/REGS
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent35116 C:\Users\lqy\Desktop\REGS\REGS.xpr
+# Log file: C:/Users/lqy/Desktop/REGS/vivado.log
+# Journal file: C:/Users/lqy/Desktop/REGS\vivado.jou
+# Running On: LAPTOP-SDV26TG8, OS: Windows, CPU Frequency: 2112 MHz, CPU Physical cores: 4, Host memory: 21318 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/lqy/Desktop/REGS/REGS.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+source Regs_tb.tcl
+close_sim
+launch_simulation
+source Regs_tb.tcl
+close_sim
+launch_simulation
+source Regs_tb.tcl
+close_sim

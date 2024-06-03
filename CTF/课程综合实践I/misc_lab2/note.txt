@@ -1,0 +1,5 @@
+1.exiftool用来查看和识别图片文件后的附加信息数据
+2.binwalk可以检测文件末尾叠加的其他文件
+  binwalk -e <file>识别并分离出附加的文件（可能会不好用）
+3.foremost可以识别并分离出附加的文件
+  foremost <file>

@@ -1,0 +1,1053 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Fri Mar  8 13:32:31 2024
+# Process ID: 44352
+# Current directory: C:/Users/lqy/Desktop/ALU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent49832 C:\Users\lqy\Desktop\ALU\ALU.xpr
+# Log file: C:/Users/lqy/Desktop/ALU/vivado.log
+# Journal file: C:/Users/lqy/Desktop/ALU\vivado.jou
+# Running On: LAPTOP-SDV26TG8, OS: Windows, CPU Frequency: 2112 MHz, CPU Physical cores: 4, Host memory: 21318 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/lqy/Desktop/ALU/ALU.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.3 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.3/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.1 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.1 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at D:/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/lqy/Desktop/ALU/module_src'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2023.1/data/ip'.
+open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1503.926 ; gain = 202.805
+update_compile_order -fileset sources_1
+set_property is_enabled false [get_files  C:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/hdl/ALU_wrapper.v]
+close [ open C:/Users/lqy/Desktop/ALU/ALU.srcs/sources_1/new/ALU_Wrapper.v w ]
+add_files C:/Users/lqy/Desktop/ALU/ALU.srcs/sources_1/new/ALU_Wrapper.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property is_enabled false [get_files  C:/Users/lqy/Desktop/ALU/ALU.srcs/sources_1/bd/ALU/ALU.bd]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'ALU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/lqy/Desktop/ALU/ALU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Vivado/2023.1/data/xsim/xsim.ini' copied to run dir:'C:/Users/lqy/Desktop/ALU/ALU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'ALU_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/lqy/Desktop/ALU/ALU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj ALU_tb_vlog.prj"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lqy/Desktop/ALU/ALU.srcs/sources_1/new/ALU_Wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_wrapper
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/lqy/Desktop/ALU/ALU.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot ALU_tb_behav xil_defaultlib.ALU_tb xil_defaultlib.glbl -log elaborate.log"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot ALU_tb_behav xil_defaultlib.ALU_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ALU_wrapper
+Compiling module xil_defaultlib.ALU_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot ALU_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/lqy/Desktop/ALU/ALU.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ALU_tb_behav -key {Behavioral:sim_1:Functional:ALU_tb} -tclbatch {ALU_tb.tcl} -protoinst "protoinst_files/ALU.protoinst" -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/ALU.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/ALU.protoinst for the following reason(s):
+There are no instances of module "ALU" in the design.
+
+Time resolution is 1 ps
+source ALU_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1576.566 ; gain = 29.273
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ALU_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:14 . Memory (MB): peak = 1576.566 ; gain = 33.695
+set_property is_enabled false [get_files  C:/Users/lqy/Desktop/ALU/ALU.srcs/sources_1/new/ALU_Wrapper.v]
+set_property is_enabled true [get_files  C:/Users/lqy/Desktop/ALU/ALU.srcs/sources_1/bd/ALU/ALU.bd]
+set_property is_enabled true [get_files  C:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/hdl/ALU_wrapper.v]
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'ALU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/lqy/Desktop/ALU/ALU.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Vivado/2023.1/data/xsim/xsim.ini' copied to run dir:'C:/Users/lqy/Desktop/ALU/ALU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'ALU_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/lqy/Desktop/ALU/ALU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj ALU_tb_vlog.prj"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/hdl/ALU_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_wrapper
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/lqy/Desktop/ALU/ALU.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlslice_v1_0_2 -L xlconstant_v1_1_7 -L xlconcat_v2_1_4 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot ALU_tb_behav xil_defaultlib.ALU_tb xil_defaultlib.glbl -log elaborate.log"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlslice_v1_0_2 -L xlconstant_v1_1_7 -L xlconcat_v2_1_4 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot ALU_tb_behav xil_defaultlib.ALU_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.MUX8T1_32
+Compiling module xil_defaultlib.ALU_MUX8T1_32_0_0
+Compiling module xil_defaultlib.SignalExt_32
+Compiling module xil_defaultlib.ALU_SignalExt_32_0_0
+Compiling module xil_defaultlib.addc_32
+Compiling module xil_defaultlib.ALU_addc_32_0_0
+Compiling module xil_defaultlib.and32
+Compiling module xil_defaultlib.ALU_and32_0_0
+Compiling module xil_defaultlib.nor32
+Compiling module xil_defaultlib.ALU_nor32_0_0
+Compiling module xil_defaultlib.or32
+Compiling module xil_defaultlib.ALU_or32_0_0
+Compiling module xil_defaultlib.or_bit_32
+Compiling module xil_defaultlib.ALU_or_bit_32_0_0
+Compiling module xil_defaultlib.srl32
+Compiling module xil_defaultlib.ALU_srl32_0_0
+Compiling module xlconcat_v2_1_4.xlconcat_v2_1_4_xlconcat(IN1_WID...
+Compiling module xil_defaultlib.ALU_xlconcat_0_0
+Compiling module xlconstant_v1_1_7.xlconstant_v1_1_7_xlconstant(CON...
+Compiling module xil_defaultlib.ALU_xlconstant_0_0
+Compiling module xlslice_v1_0_2.xlslice_v1_0_2_xlslice(DIN_WIDTH...
+Compiling module xil_defaultlib.ALU_xlslice_0_0
+Compiling module xlslice_v1_0_2.xlslice_v1_0_2_xlslice(DIN_WIDTH...
+Compiling module xil_defaultlib.ALU_xlslice_0_1
+Compiling module xil_defaultlib.ALU_xlslice_1_0
+Compiling module xil_defaultlib.xor32
+Compiling module xil_defaultlib.ALU_xor32_0_0
+Compiling module xil_defaultlib.ALU_xor32_1_0
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.ALU_wrapper
+Compiling module xil_defaultlib.ALU_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot ALU_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/lqy/Desktop/ALU/ALU.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ALU_tb_behav -key {Behavioral:sim_1:Functional:ALU_tb} -tclbatch {ALU_tb.tcl} -protoinst "protoinst_files/ALU.protoinst" -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/ALU.protoinst
+Time resolution is 1 ps
+source ALU_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ALU_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:13 . Memory (MB): peak = 1583.770 ; gain = 7.203
+save_wave_config {C:/Users/lqy/Desktop/ALU/ALU_Structrual_behav.wcfg}
+add_files -fileset sim_1 -norecurse C:/Users/lqy/Desktop/ALU/ALU_Structrual_behav.wcfg
+set_property xsim.view C:/Users/lqy/Desktop/ALU/ALU_Structrual_behav.wcfg [get_filesets sim_1]
+set_property is_enabled false [get_files  C:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/hdl/ALU_wrapper.v]
+set_property is_enabled true [get_files  C:/Users/lqy/Desktop/ALU/ALU.srcs/sources_1/new/ALU_Wrapper.v]
+update_compile_order -fileset sources_1
+set_property is_enabled false [get_files  C:/Users/lqy/Desktop/ALU/ALU.srcs/sources_1/bd/ALU/ALU.bd]
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'ALU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/lqy/Desktop/ALU/ALU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Vivado/2023.1/data/xsim/xsim.ini' copied to run dir:'C:/Users/lqy/Desktop/ALU/ALU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'ALU_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/lqy/Desktop/ALU/ALU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj ALU_tb_vlog.prj"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lqy/Desktop/ALU/ALU.srcs/sources_1/new/ALU_Wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_wrapper
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/lqy/Desktop/ALU/ALU.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot ALU_tb_behav xil_defaultlib.ALU_tb xil_defaultlib.glbl -log elaborate.log"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot ALU_tb_behav xil_defaultlib.ALU_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ALU_wrapper
+Compiling module xil_defaultlib.ALU_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot ALU_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/lqy/Desktop/ALU/ALU.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ALU_tb_behav -key {Behavioral:sim_1:Functional:ALU_tb} -tclbatch {ALU_tb.tcl} -protoinst "protoinst_files/ALU.protoinst" -view {C:/Users/lqy/Desktop/ALU/ALU_Structrual_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/ALU.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/ALU.protoinst for the following reason(s):
+There are no instances of module "ALU" in the design.
+
+Time resolution is 1 ps
+open_wave_config C:/Users/lqy/Desktop/ALU/ALU_Structrual_behav.wcfg
+source ALU_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ALU_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:10 . Memory (MB): peak = 1591.391 ; gain = 2.098
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'ALU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/lqy/Desktop/ALU/ALU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Vivado/2023.1/data/xsim/xsim.ini' copied to run dir:'C:/Users/lqy/Desktop/ALU/ALU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'ALU_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/lqy/Desktop/ALU/ALU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj ALU_tb_vlog.prj"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/lqy/Desktop/ALU/ALU.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot ALU_tb_behav xil_defaultlib.ALU_tb xil_defaultlib.glbl -log elaborate.log"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot ALU_tb_behav xil_defaultlib.ALU_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/lqy/Desktop/ALU/ALU.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ALU_tb_behav -key {Behavioral:sim_1:Functional:ALU_tb} -tclbatch {ALU_tb.tcl} -protoinst "protoinst_files/ALU.protoinst" -view {C:/Users/lqy/Desktop/ALU/ALU_Structrual_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/ALU.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/ALU.protoinst for the following reason(s):
+There are no instances of module "ALU" in the design.
+
+Time resolution is 1 ps
+open_wave_config C:/Users/lqy/Desktop/ALU/ALU_Structrual_behav.wcfg
+source ALU_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ALU_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:10 . Memory (MB): peak = 1593.148 ; gain = 1.758
+set_property is_enabled false [get_files  C:/Users/lqy/Desktop/ALU/ALU.srcs/sources_1/new/ALU_Wrapper.v]
+set_property is_enabled true [get_files  C:/Users/lqy/Desktop/ALU/ALU.srcs/sources_1/bd/ALU/ALU.bd]
+set_property is_enabled true [get_files  C:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/hdl/ALU_wrapper.v]
+open_bd_design {C:/Users/lqy/Desktop/ALU/ALU.srcs/sources_1/bd/ALU/ALU.bd}
+Reading block design file <C:/Users/lqy/Desktop/ALU/ALU.srcs/sources_1/bd/ALU/ALU.bd>...
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - xlslice_0
+Adding component instance block -- xilinx.com:user:SignalExt_32:1.0 - SignalExt_32_0
+Adding component instance block -- xilinx.com:user:xor32:1.0 - xor32_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - xlslice_1
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding component instance block -- xilinx.com:user:addc_32:1.0 - addc_32_0
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Adding component instance block -- xilinx.com:user:and32:1.0 - and32_0
+Adding component instance block -- xilinx.com:user:or32:1.0 - or32_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - xlslice_2
+Adding component instance block -- xilinx.com:user:xor32:1.0 - xor32_1
+Adding component instance block -- xilinx.com:user:nor32:1.0 - nor32_0
+Adding component instance block -- xilinx.com:user:srl32:1.0 - srl32_0
+Adding component instance block -- xilinx.com:user:MUX8T1_32:1.0 - MUX8T1_32_0
+Adding component instance block -- xilinx.com:user:or_bit_32:1.0 - or_bit_32_0
+Successfully read diagram <ALU> from block design file <C:/Users/lqy/Desktop/ALU/ALU.srcs/sources_1/bd/ALU/ALU.bd>
+set_property location {5.5 1228 398} [get_bd_cells or_bit_32_0]
+undo
+INFO: [Common 17-17] undo 'set_property location {5.5 1228 398} [get_bd_cells or_bit_32_0]'
+startgroup
+set_property CONFIG.DIN_WIDTH {3} [get_bd_cells xlslice_1]
+endgroup
+save_bd_design
+Wrote  : <C:\Users\lqy\Desktop\ALU\ALU.srcs\sources_1\bd\ALU\ALU.bd> 
+Wrote  : <C:/Users/lqy/Desktop/ALU/ALU.srcs/sources_1/bd/ALU/ui/bd_3914498a.ui> 
+open_bd_design {C:/Users/lqy/Desktop/ALU/ALU.srcs/sources_1/bd/ALU/ALU.bd}
+regenerate_bd_layout -routing
+regenerate_bd_layout -routing
+regenerate_bd_layout -routing
+regenerate_bd_layout -routing
+export_ip_user_files -of_objects  [get_files C:/Users/lqy/Desktop/ALU/ALU.srcs/sources_1/bd/ALU/ALU.bd] -no_script -reset -force -quiet
+remove_files  C:/Users/lqy/Desktop/ALU/ALU.srcs/sources_1/bd/ALU/ALU.bd
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/lqy/Desktop/ALU/ALU.runs/ALU_SignalExt_32_0_0_synth_1
+
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/lqy/Desktop/ALU/ALU.runs/ALU_xor32_0_0_synth_1
+
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/lqy/Desktop/ALU/ALU.runs/ALU_addc_32_0_0_synth_1
+
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/lqy/Desktop/ALU/ALU.runs/ALU_and32_0_0_synth_1
+
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/lqy/Desktop/ALU/ALU.runs/ALU_or32_0_0_synth_1
+
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/lqy/Desktop/ALU/ALU.runs/ALU_xor32_1_0_synth_1
+
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/lqy/Desktop/ALU/ALU.runs/ALU_nor32_0_0_synth_1
+
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/lqy/Desktop/ALU/ALU.runs/ALU_srl32_0_0_synth_1
+
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/lqy/Desktop/ALU/ALU.runs/ALU_MUX8T1_32_0_0_synth_1
+
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/lqy/Desktop/ALU/ALU.runs/ALU_or_bit_32_0_0_synth_1
+
+delete_ip_run: Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 2657.430 ; gain = 0.000
+Wrote  : <C:/Users/lqy/Desktop/ALU/ALU.srcs/sources_1/bd/ALU/ui/bd_3914498a.ui> 
+remove_files: Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 2657.430 ; gain = 0.000
+export_ip_user_files -of_objects  [get_files C:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/hdl/ALU_wrapper.v] -no_script -reset -force -quiet
+remove_files  C:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/hdl/ALU_wrapper.v
+create_bd_design "ALU"
+Wrote  : <C:\Users\lqy\Desktop\ALU\ALU.srcs\sources_1\bd\ALU\ALU.bd> 
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:user:or_bit_32:1.0 or_bit_32_0
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_cells or_bit_32_0]
+make_bd_intf_pins_external  [get_bd_cells or_bit_32_0]
+INFO: [BD 5-409] No interface pins to be made external for /or_bit_32_0
+endgroup
+undo
+INFO: [Common 17-17] undo 'endgroup'
+INFO: [Common 17-17] undo 'make_bd_intf_pins_external  [get_bd_cells or_bit_32_0]'
+INFO: [Common 17-17] undo 'make_bd_pins_external  [get_bd_cells or_bit_32_0]'
+INFO: [Common 17-17] undo 'startgroup'
+startgroup
+make_bd_pins_external  [get_bd_cells or_bit_32_0]
+make_bd_intf_pins_external  [get_bd_cells or_bit_32_0]
+INFO: [BD 5-409] No interface pins to be made external for /or_bit_32_0
+endgroup
+set_property name zero [get_bd_ports o_0]
+delete_bd_objs [get_bd_nets A_0_1] [get_bd_ports A_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:user:MUX8T1_32:1.0 MUX8T1_32_0
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_cells MUX8T1_32_0]
+make_bd_intf_pins_external  [get_bd_cells MUX8T1_32_0]
+INFO: [BD 5-409] No interface pins to be made external for /MUX8T1_32_0
+endgroup
+delete_bd_objs [get_bd_nets I6_0_1] [get_bd_nets s_0_1] [get_bd_nets I7_0_1] [get_bd_nets I0_0_1] [get_bd_nets I1_0_1] [get_bd_nets I3_0_1] [get_bd_nets I2_0_1] [get_bd_nets I4_0_1] [get_bd_nets I5_0_1] [get_bd_ports I0_0] [get_bd_ports I1_0] [get_bd_ports I4_0] [get_bd_ports I6_0] [get_bd_ports I3_0] [get_bd_ports I5_0] [get_bd_ports I2_0] [get_bd_ports s_0] [get_bd_ports I7_0]
+set_property name res [get_bd_ports o_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:user:and32:1.0 and32_0
+endgroup
+connect_bd_net [get_bd_pins MUX8T1_32_0/I0] [get_bd_pins and32_0/res]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:user:or32:1.0 or32_0
+endgroup
+connect_bd_net [get_bd_pins or32_0/res] [get_bd_pins MUX8T1_32_0/I1]
+set_property location {2 232 -193} [get_bd_cells or32_0]
+set_property location {1 217 -163} [get_bd_cells or32_0]
+set_property location {1 209 -176} [get_bd_cells or32_0]
+regenerate_bd_layout -routing
+undo
+INFO: [Common 17-17] undo 'regenerate_bd_layout -routing'
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:xlslice:1.0 xlslice_0
+endgroup
+set_property location {2 150 -66} [get_bd_cells xlslice_0]
+set_property location {1 236 -54} [get_bd_cells xlslice_0]
+set_property -dict [list \
+  CONFIG.DIN_WIDTH {33} \
+  CONFIG.DOUT_WIDTH {32} \
+] [get_bd_cells xlslice_0]
+set_property -dict [list \
+  CONFIG.DIN_FROM {32} \
+  CONFIG.DIN_TO {1} \
+] [get_bd_cells xlslice_0]
+connect_bd_net [get_bd_pins xlslice_0/Dout] [get_bd_pins MUX8T1_32_0/I2]
+set_property location {1 240 -95} [get_bd_cells xlslice_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:user:xor32:1.0 xor32_0
+endgroup
+set_property location {2 210 -2} [get_bd_cells xor32_0]
+connect_bd_net [get_bd_pins xor32_0/res] [get_bd_pins MUX8T1_32_0/I3]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:user:nor32:1.0 nor32_0
+endgroup
+set_property location {2 225 107} [get_bd_cells nor32_0]
+connect_bd_net [get_bd_pins nor32_0/res] [get_bd_pins MUX8T1_32_0/I4]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:user:srl32:1.0 srl32_0
+endgroup
+set_property location {2 218 205} [get_bd_cells srl32_0]
+connect_bd_net [get_bd_pins srl32_0/res] [get_bd_pins MUX8T1_32_0/I5]
+connect_bd_net [get_bd_pins or_bit_32_0/A] [get_bd_pins MUX8T1_32_0/o]
+save_bd_design
+Wrote  : <C:\Users\lqy\Desktop\ALU\ALU.srcs\sources_1\bd\ALU\ALU.bd> 
+Wrote  : <C:/Users/lqy/Desktop/ALU/ALU.srcs/sources_1/bd/ALU/ui/bd_3914498a.ui> 
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:user:addc_32:1.0 addc_32_0
+endgroup
+set_property location {1 70 -155} [get_bd_cells addc_32_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:xlconcat:2.1 xlconcat_0
+endgroup
+set_property location {2 229 135} [get_bd_cells xlconcat_0]
+set_property -dict [list CONFIG.IN0_WIDTH.VALUE_SRC USER CONFIG.IN1_WIDTH.VALUE_SRC USER] [get_bd_cells xlconcat_0]
+set_property CONFIG.IN1_WIDTH {31} [get_bd_cells xlconcat_0]
+connect_bd_net [get_bd_pins addc_32_0/S] [get_bd_pins xlslice_0/Din]
+connect_bd_net [get_bd_pins xlconcat_0/dout] [get_bd_pins MUX8T1_32_0/I7]
+set_property location {1 222 33} [get_bd_cells xlconcat_0]
+set_property location {2 416 230} [get_bd_cells srl32_0]
+set_property location {2 421 114} [get_bd_cells nor32_0]
+set_property location {2 419 91} [get_bd_cells nor32_0]
+set_property location {2 425 108} [get_bd_cells nor32_0]
+set_property location {2 417 212} [get_bd_cells srl32_0]
+set_property location {2 420 222} [get_bd_cells srl32_0]
+set_property location {2 420 105} [get_bd_cells nor32_0]
+connect_bd_net [get_bd_pins MUX8T1_32_0/I6] [get_bd_pins xlslice_0/Dout]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:user:SignalExt_32:1.0 SignalExt_32_0
+endgroup
+set_property location {1 -20 -316} [get_bd_cells SignalExt_32_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:user:xor32:1.0 xor32_1
+endgroup
+set_property location {1 32 -125} [get_bd_cells xor32_1]
+set_property location {1 35 -149} [get_bd_cells xor32_1]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:xlslice:1.0 xlslice_1
+endgroup
+set_property location {1 104 18} [get_bd_cells xlslice_1]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:xlconstant:1.1 xlconstant_0
+endgroup
+set_property location {1 63 137} [get_bd_cells xlconstant_0]
+set_property CONFIG.DIN_WIDTH {33} [get_bd_cells xlslice_1]
+expected number but got ""
+ERROR: [IP_Flow 19-3317] Tcl Error found in 'validate_PARAM_VALUE.CONST_VAL' method. expected number but got ""
+set_property -dict [list \
+  CONFIG.CONST_VAL {0} \
+  CONFIG.CONST_WIDTH {31} \
+] [get_bd_cells xlconstant_0]
+connect_bd_net [get_bd_pins SignalExt_32_0/So] [get_bd_pins xor32_1/A]
+connect_bd_net [get_bd_pins xor32_1/res] [get_bd_pins addc_32_0/B]
+connect_bd_net [get_bd_pins xlslice_1/Din] [get_bd_pins addc_32_0/S]
+connect_bd_net [get_bd_pins xlslice_1/Dout] [get_bd_pins xlconcat_0/In0]
+connect_bd_net [get_bd_pins xlconstant_0/dout] [get_bd_pins xlconcat_0/In1]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:xlslice:1.0 xlslice_2
+endgroup
+set_property NAME xlslice_3 [get_bd_cells /xlslice_2]
+set_property NAME xlslice_2 [get_bd_cells /xlslice_1]
+set_property NAME xlslice_1 [get_bd_cells /xlslice_3]
+set_property location {0.5 -211 -291} [get_bd_cells xlslice_1]
+set_property location {1 -222 -292} [get_bd_cells xlslice_1]
+connect_bd_net [get_bd_pins xlslice_1/Dout] [get_bd_pins SignalExt_32_0/S]
+connect_bd_net [get_bd_pins addc_32_0/C0] [get_bd_pins xlslice_1/Dout]
+startgroup
+make_bd_pins_external  [get_bd_pins xlslice_1/Din]
+endgroup
+set_property name ALU_operation [get_bd_ports Din_0]
+startgroup
+set_property CONFIG.DIN_WIDTH {3} [get_bd_cells xlslice_1]
+endgroup
+delete_bd_objs [get_bd_nets Din_0_1] [get_bd_ports ALU_operation]
+startgroup
+make_bd_pins_external  [get_bd_pins xlslice_1/Din]
+endgroup
+set_property name ALU_operation [get_bd_ports Din_0]
+set_property location {-350 -122} [get_bd_ports ALU_operation]
+undo
+INFO: [Common 17-17] undo 'set_property location {-350 -122} [get_bd_ports ALU_operation]'
+undo
+INFO: [Common 17-17] undo 'set_property name ALU_operation [get_bd_ports Din_0]'
+connect_bd_net [get_bd_ports Din_0] [get_bd_pins xor32_1/B]
+undo
+INFO: [Common 17-17] undo 'connect_bd_net [get_bd_ports Din_0] [get_bd_pins xor32_1/B]'
+undo
+INFO: [Common 17-17] undo 'endgroup'
+INFO: [Common 17-17] undo 'make_bd_pins_external  [get_bd_pins xlslice_1/Din]'
+INFO: [Common 17-17] undo 'startgroup'
+startgroup
+make_bd_pins_external  [get_bd_pins xlslice_1/Din]
+endgroup
+set_property name ALU_operation [get_bd_ports Din_0]
+startgroup
+make_bd_pins_external  [get_bd_cells and32_0]
+make_bd_intf_pins_external  [get_bd_cells and32_0]
+INFO: [BD 5-409] No interface pins to be made external for /and32_0
+endgroup
+delete_bd_objs [get_bd_nets B_0_1] [get_bd_ports B_0]
+set_property name A [get_bd_ports A_0]
+connect_bd_net [get_bd_ports ALU_operation] [get_bd_pins MUX8T1_32_0/s]
+connect_bd_net [get_bd_ports A] [get_bd_pins or32_0/A]
+connect_bd_net [get_bd_ports A] [get_bd_pins xor32_0/A]
+connect_bd_net [get_bd_ports A] [get_bd_pins nor32_0/A]
+connect_bd_net [get_bd_ports A] [get_bd_pins srl32_0/A]
+connect_bd_net [get_bd_ports A] [get_bd_pins addc_32_0/A]
+startgroup
+make_bd_pins_external  [get_bd_pins xor32_1/B]
+endgroup
+set_property name B [get_bd_ports B_0]
+connect_bd_net [get_bd_ports B] [get_bd_pins and32_0/B]
+connect_bd_net [get_bd_ports B] [get_bd_pins or32_0/B]
+connect_bd_net [get_bd_ports B] [get_bd_pins xor32_0/B]
+connect_bd_net [get_bd_ports B] [get_bd_pins nor32_0/B]
+connect_bd_net [get_bd_ports B] [get_bd_pins srl32_0/B]
+save_bd_design
+Wrote  : <C:\Users\lqy\Desktop\ALU\ALU.srcs\sources_1\bd\ALU\ALU.bd> 
+Wrote  : <C:/Users/lqy/Desktop/ALU/ALU.srcs/sources_1/bd/ALU/ui/bd_3914498a.ui> 
+regenerate_bd_layout -routing
+generate_target all [get_files  C:/Users/lqy/Desktop/ALU/ALU.srcs/sources_1/bd/ALU/ALU.bd]
+Wrote  : <C:\Users\lqy\Desktop\ALU\ALU.srcs\sources_1\bd\ALU\ALU.bd> 
+Wrote  : <C:/Users/lqy/Desktop/ALU/ALU.srcs/sources_1/bd/ALU/ui/bd_3914498a.ui> 
+Verilog Output written to : C:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/synth/ALU.v
+Verilog Output written to : C:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/sim/ALU.v
+Verilog Output written to : C:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/hdl/ALU_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block or_bit_32_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block MUX8T1_32_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block and32_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block or32_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlslice_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xor32_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block nor32_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block srl32_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block addc_32_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block SignalExt_32_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xor32_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlslice_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlslice_1 .
+Exporting to file C:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/hw_handoff/ALU.hwh
+Generated Hardware Definition File C:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/synth/ALU.hwdef
+generate_target: Time (s): cpu = 00:00:02 ; elapsed = 00:00:13 . Memory (MB): peak = 2657.430 ; gain = 0.000
+catch { config_ip_cache -export [get_ips -all ALU_or_bit_32_0_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ALU_or_bit_32_0_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 1d7cfe9695236d30 to dir: c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_or_bit_32_0_0_1
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/lqy/Desktop/ALU/ALU.cache/ip/2023.1/1/d/1d7cfe9695236d30/ALU_or_bit_32_0_0.dcp to c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_or_bit_32_0_0_1/ALU_or_bit_32_0_0.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_or_bit_32_0_0_1/ALU_or_bit_32_0_0.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/lqy/Desktop/ALU/ALU.cache/ip/2023.1/1/d/1d7cfe9695236d30/ALU_or_bit_32_0_0_sim_netlist.v to c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_or_bit_32_0_0_1/ALU_or_bit_32_0_0_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_or_bit_32_0_0_1/ALU_or_bit_32_0_0_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/lqy/Desktop/ALU/ALU.cache/ip/2023.1/1/d/1d7cfe9695236d30/ALU_or_bit_32_0_0_sim_netlist.vhdl to c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_or_bit_32_0_0_1/ALU_or_bit_32_0_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_or_bit_32_0_0_1/ALU_or_bit_32_0_0_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/lqy/Desktop/ALU/ALU.cache/ip/2023.1/1/d/1d7cfe9695236d30/ALU_or_bit_32_0_0_stub.v to c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_or_bit_32_0_0_1/ALU_or_bit_32_0_0_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_or_bit_32_0_0_1/ALU_or_bit_32_0_0_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/lqy/Desktop/ALU/ALU.cache/ip/2023.1/1/d/1d7cfe9695236d30/ALU_or_bit_32_0_0_stub.vhdl to c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_or_bit_32_0_0_1/ALU_or_bit_32_0_0_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_or_bit_32_0_0_1/ALU_or_bit_32_0_0_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP ALU_or_bit_32_0_0, cache-ID = 1d7cfe9695236d30; cache size = 0.408 MB.
+catch { config_ip_cache -export [get_ips -all ALU_MUX8T1_32_0_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ALU_MUX8T1_32_0_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 1c1d6c13b4790064 to dir: c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_MUX8T1_32_0_0_1
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/lqy/Desktop/ALU/ALU.cache/ip/2023.1/1/c/1c1d6c13b4790064/ALU_MUX8T1_32_0_0.dcp to c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_MUX8T1_32_0_0_1/ALU_MUX8T1_32_0_0.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_MUX8T1_32_0_0_1/ALU_MUX8T1_32_0_0.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/lqy/Desktop/ALU/ALU.cache/ip/2023.1/1/c/1c1d6c13b4790064/ALU_MUX8T1_32_0_0_sim_netlist.v to c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_MUX8T1_32_0_0_1/ALU_MUX8T1_32_0_0_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_MUX8T1_32_0_0_1/ALU_MUX8T1_32_0_0_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/lqy/Desktop/ALU/ALU.cache/ip/2023.1/1/c/1c1d6c13b4790064/ALU_MUX8T1_32_0_0_sim_netlist.vhdl to c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_MUX8T1_32_0_0_1/ALU_MUX8T1_32_0_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_MUX8T1_32_0_0_1/ALU_MUX8T1_32_0_0_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/lqy/Desktop/ALU/ALU.cache/ip/2023.1/1/c/1c1d6c13b4790064/ALU_MUX8T1_32_0_0_stub.v to c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_MUX8T1_32_0_0_1/ALU_MUX8T1_32_0_0_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_MUX8T1_32_0_0_1/ALU_MUX8T1_32_0_0_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/lqy/Desktop/ALU/ALU.cache/ip/2023.1/1/c/1c1d6c13b4790064/ALU_MUX8T1_32_0_0_stub.vhdl to c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_MUX8T1_32_0_0_1/ALU_MUX8T1_32_0_0_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_MUX8T1_32_0_0_1/ALU_MUX8T1_32_0_0_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP ALU_MUX8T1_32_0_0, cache-ID = 1c1d6c13b4790064; cache size = 0.408 MB.
+catch { config_ip_cache -export [get_ips -all ALU_and32_0_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ALU_and32_0_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 453d9ab9cb9dc05c to dir: c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_and32_0_0_1
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/lqy/Desktop/ALU/ALU.cache/ip/2023.1/4/5/453d9ab9cb9dc05c/ALU_and32_0_0.dcp to c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_and32_0_0_1/ALU_and32_0_0.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_and32_0_0_1/ALU_and32_0_0.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/lqy/Desktop/ALU/ALU.cache/ip/2023.1/4/5/453d9ab9cb9dc05c/ALU_and32_0_0_sim_netlist.v to c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_and32_0_0_1/ALU_and32_0_0_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_and32_0_0_1/ALU_and32_0_0_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/lqy/Desktop/ALU/ALU.cache/ip/2023.1/4/5/453d9ab9cb9dc05c/ALU_and32_0_0_sim_netlist.vhdl to c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_and32_0_0_1/ALU_and32_0_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_and32_0_0_1/ALU_and32_0_0_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/lqy/Desktop/ALU/ALU.cache/ip/2023.1/4/5/453d9ab9cb9dc05c/ALU_and32_0_0_stub.v to c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_and32_0_0_1/ALU_and32_0_0_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_and32_0_0_1/ALU_and32_0_0_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/lqy/Desktop/ALU/ALU.cache/ip/2023.1/4/5/453d9ab9cb9dc05c/ALU_and32_0_0_stub.vhdl to c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_and32_0_0_1/ALU_and32_0_0_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_and32_0_0_1/ALU_and32_0_0_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP ALU_and32_0_0, cache-ID = 453d9ab9cb9dc05c; cache size = 0.408 MB.
+catch { config_ip_cache -export [get_ips -all ALU_or32_0_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ALU_or32_0_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 6bd35aa1e19581a6 to dir: c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_or32_0_0_1
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/lqy/Desktop/ALU/ALU.cache/ip/2023.1/6/b/6bd35aa1e19581a6/ALU_or32_0_0.dcp to c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_or32_0_0_1/ALU_or32_0_0.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_or32_0_0_1/ALU_or32_0_0.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/lqy/Desktop/ALU/ALU.cache/ip/2023.1/6/b/6bd35aa1e19581a6/ALU_or32_0_0_sim_netlist.v to c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_or32_0_0_1/ALU_or32_0_0_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_or32_0_0_1/ALU_or32_0_0_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/lqy/Desktop/ALU/ALU.cache/ip/2023.1/6/b/6bd35aa1e19581a6/ALU_or32_0_0_sim_netlist.vhdl to c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_or32_0_0_1/ALU_or32_0_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_or32_0_0_1/ALU_or32_0_0_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/lqy/Desktop/ALU/ALU.cache/ip/2023.1/6/b/6bd35aa1e19581a6/ALU_or32_0_0_stub.v to c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_or32_0_0_1/ALU_or32_0_0_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_or32_0_0_1/ALU_or32_0_0_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/lqy/Desktop/ALU/ALU.cache/ip/2023.1/6/b/6bd35aa1e19581a6/ALU_or32_0_0_stub.vhdl to c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_or32_0_0_1/ALU_or32_0_0_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_or32_0_0_1/ALU_or32_0_0_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP ALU_or32_0_0, cache-ID = 6bd35aa1e19581a6; cache size = 0.408 MB.
+catch { config_ip_cache -export [get_ips -all ALU_xor32_0_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ALU_xor32_0_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 1f0e2825f528e55d to dir: c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_xor32_0_0_1
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/lqy/Desktop/ALU/ALU.cache/ip/2023.1/1/f/1f0e2825f528e55d/ALU_xor32_0_0.dcp to c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_xor32_0_0_1/ALU_xor32_0_0.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_xor32_0_0_1/ALU_xor32_0_0.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/lqy/Desktop/ALU/ALU.cache/ip/2023.1/1/f/1f0e2825f528e55d/ALU_xor32_0_0_sim_netlist.v to c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_xor32_0_0_1/ALU_xor32_0_0_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_xor32_0_0_1/ALU_xor32_0_0_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/lqy/Desktop/ALU/ALU.cache/ip/2023.1/1/f/1f0e2825f528e55d/ALU_xor32_0_0_sim_netlist.vhdl to c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_xor32_0_0_1/ALU_xor32_0_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_xor32_0_0_1/ALU_xor32_0_0_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/lqy/Desktop/ALU/ALU.cache/ip/2023.1/1/f/1f0e2825f528e55d/ALU_xor32_0_0_stub.v to c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_xor32_0_0_1/ALU_xor32_0_0_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_xor32_0_0_1/ALU_xor32_0_0_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/lqy/Desktop/ALU/ALU.cache/ip/2023.1/1/f/1f0e2825f528e55d/ALU_xor32_0_0_stub.vhdl to c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_xor32_0_0_1/ALU_xor32_0_0_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_xor32_0_0_1/ALU_xor32_0_0_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP ALU_xor32_0_0, cache-ID = 1f0e2825f528e55d; cache size = 0.408 MB.
+catch { config_ip_cache -export [get_ips -all ALU_nor32_0_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ALU_nor32_0_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry a0143af77ea7bd3d to dir: c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_nor32_0_0_1
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/lqy/Desktop/ALU/ALU.cache/ip/2023.1/a/0/a0143af77ea7bd3d/ALU_nor32_0_0.dcp to c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_nor32_0_0_1/ALU_nor32_0_0.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_nor32_0_0_1/ALU_nor32_0_0.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/lqy/Desktop/ALU/ALU.cache/ip/2023.1/a/0/a0143af77ea7bd3d/ALU_nor32_0_0_sim_netlist.v to c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_nor32_0_0_1/ALU_nor32_0_0_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_nor32_0_0_1/ALU_nor32_0_0_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/lqy/Desktop/ALU/ALU.cache/ip/2023.1/a/0/a0143af77ea7bd3d/ALU_nor32_0_0_sim_netlist.vhdl to c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_nor32_0_0_1/ALU_nor32_0_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_nor32_0_0_1/ALU_nor32_0_0_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/lqy/Desktop/ALU/ALU.cache/ip/2023.1/a/0/a0143af77ea7bd3d/ALU_nor32_0_0_stub.v to c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_nor32_0_0_1/ALU_nor32_0_0_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_nor32_0_0_1/ALU_nor32_0_0_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/lqy/Desktop/ALU/ALU.cache/ip/2023.1/a/0/a0143af77ea7bd3d/ALU_nor32_0_0_stub.vhdl to c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_nor32_0_0_1/ALU_nor32_0_0_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_nor32_0_0_1/ALU_nor32_0_0_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP ALU_nor32_0_0, cache-ID = a0143af77ea7bd3d; cache size = 0.408 MB.
+catch { config_ip_cache -export [get_ips -all ALU_srl32_0_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ALU_srl32_0_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 8ee0ae0cfdbc69a0 to dir: c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_srl32_0_0_1
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/lqy/Desktop/ALU/ALU.cache/ip/2023.1/8/e/8ee0ae0cfdbc69a0/ALU_srl32_0_0.dcp to c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_srl32_0_0_1/ALU_srl32_0_0.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_srl32_0_0_1/ALU_srl32_0_0.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/lqy/Desktop/ALU/ALU.cache/ip/2023.1/8/e/8ee0ae0cfdbc69a0/ALU_srl32_0_0_sim_netlist.v to c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_srl32_0_0_1/ALU_srl32_0_0_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_srl32_0_0_1/ALU_srl32_0_0_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/lqy/Desktop/ALU/ALU.cache/ip/2023.1/8/e/8ee0ae0cfdbc69a0/ALU_srl32_0_0_sim_netlist.vhdl to c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_srl32_0_0_1/ALU_srl32_0_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_srl32_0_0_1/ALU_srl32_0_0_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/lqy/Desktop/ALU/ALU.cache/ip/2023.1/8/e/8ee0ae0cfdbc69a0/ALU_srl32_0_0_stub.v to c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_srl32_0_0_1/ALU_srl32_0_0_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_srl32_0_0_1/ALU_srl32_0_0_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/lqy/Desktop/ALU/ALU.cache/ip/2023.1/8/e/8ee0ae0cfdbc69a0/ALU_srl32_0_0_stub.vhdl to c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_srl32_0_0_1/ALU_srl32_0_0_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_srl32_0_0_1/ALU_srl32_0_0_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP ALU_srl32_0_0, cache-ID = 8ee0ae0cfdbc69a0; cache size = 0.408 MB.
+catch { config_ip_cache -export [get_ips -all ALU_addc_32_0_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ALU_addc_32_0_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry ec5c6c688638550c to dir: c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_addc_32_0_0_1
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/lqy/Desktop/ALU/ALU.cache/ip/2023.1/e/c/ec5c6c688638550c/ALU_addc_32_0_0.dcp to c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_addc_32_0_0_1/ALU_addc_32_0_0.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_addc_32_0_0_1/ALU_addc_32_0_0.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/lqy/Desktop/ALU/ALU.cache/ip/2023.1/e/c/ec5c6c688638550c/ALU_addc_32_0_0_sim_netlist.v to c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_addc_32_0_0_1/ALU_addc_32_0_0_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_addc_32_0_0_1/ALU_addc_32_0_0_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/lqy/Desktop/ALU/ALU.cache/ip/2023.1/e/c/ec5c6c688638550c/ALU_addc_32_0_0_sim_netlist.vhdl to c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_addc_32_0_0_1/ALU_addc_32_0_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_addc_32_0_0_1/ALU_addc_32_0_0_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/lqy/Desktop/ALU/ALU.cache/ip/2023.1/e/c/ec5c6c688638550c/ALU_addc_32_0_0_stub.v to c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_addc_32_0_0_1/ALU_addc_32_0_0_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_addc_32_0_0_1/ALU_addc_32_0_0_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/lqy/Desktop/ALU/ALU.cache/ip/2023.1/e/c/ec5c6c688638550c/ALU_addc_32_0_0_stub.vhdl to c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_addc_32_0_0_1/ALU_addc_32_0_0_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_addc_32_0_0_1/ALU_addc_32_0_0_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP ALU_addc_32_0_0, cache-ID = ec5c6c688638550c; cache size = 0.408 MB.
+catch { config_ip_cache -export [get_ips -all ALU_SignalExt_32_0_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ALU_SignalExt_32_0_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry dc2a2b89e5de02d4 to dir: c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_SignalExt_32_0_0_1
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/lqy/Desktop/ALU/ALU.cache/ip/2023.1/d/c/dc2a2b89e5de02d4/ALU_SignalExt_32_0_0.dcp to c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_SignalExt_32_0_0_1/ALU_SignalExt_32_0_0.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_SignalExt_32_0_0_1/ALU_SignalExt_32_0_0.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/lqy/Desktop/ALU/ALU.cache/ip/2023.1/d/c/dc2a2b89e5de02d4/ALU_SignalExt_32_0_0_sim_netlist.v to c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_SignalExt_32_0_0_1/ALU_SignalExt_32_0_0_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_SignalExt_32_0_0_1/ALU_SignalExt_32_0_0_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/lqy/Desktop/ALU/ALU.cache/ip/2023.1/d/c/dc2a2b89e5de02d4/ALU_SignalExt_32_0_0_sim_netlist.vhdl to c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_SignalExt_32_0_0_1/ALU_SignalExt_32_0_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_SignalExt_32_0_0_1/ALU_SignalExt_32_0_0_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/lqy/Desktop/ALU/ALU.cache/ip/2023.1/d/c/dc2a2b89e5de02d4/ALU_SignalExt_32_0_0_stub.v to c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_SignalExt_32_0_0_1/ALU_SignalExt_32_0_0_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_SignalExt_32_0_0_1/ALU_SignalExt_32_0_0_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/lqy/Desktop/ALU/ALU.cache/ip/2023.1/d/c/dc2a2b89e5de02d4/ALU_SignalExt_32_0_0_stub.vhdl to c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_SignalExt_32_0_0_1/ALU_SignalExt_32_0_0_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_SignalExt_32_0_0_1/ALU_SignalExt_32_0_0_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP ALU_SignalExt_32_0_0, cache-ID = dc2a2b89e5de02d4; cache size = 0.408 MB.
+catch { config_ip_cache -export [get_ips -all ALU_xor32_1_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ALU_xor32_1_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 1f0e2825f528e55d to dir: c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_xor32_1_0_1
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/lqy/Desktop/ALU/ALU.cache/ip/2023.1/1/f/1f0e2825f528e55d/ALU_xor32_0_0.dcp to c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_xor32_1_0_1/ALU_xor32_1_0.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_xor32_1_0_1/ALU_xor32_1_0.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/lqy/Desktop/ALU/ALU.cache/ip/2023.1/1/f/1f0e2825f528e55d/ALU_xor32_0_0_sim_netlist.v to c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_xor32_1_0_1/ALU_xor32_1_0_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_xor32_1_0_1/ALU_xor32_1_0_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/lqy/Desktop/ALU/ALU.cache/ip/2023.1/1/f/1f0e2825f528e55d/ALU_xor32_0_0_sim_netlist.vhdl to c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_xor32_1_0_1/ALU_xor32_1_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_xor32_1_0_1/ALU_xor32_1_0_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/lqy/Desktop/ALU/ALU.cache/ip/2023.1/1/f/1f0e2825f528e55d/ALU_xor32_0_0_stub.v to c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_xor32_1_0_1/ALU_xor32_1_0_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_xor32_1_0_1/ALU_xor32_1_0_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/lqy/Desktop/ALU/ALU.cache/ip/2023.1/1/f/1f0e2825f528e55d/ALU_xor32_0_0_stub.vhdl to c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_xor32_1_0_1/ALU_xor32_1_0_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_xor32_1_0_1/ALU_xor32_1_0_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP ALU_xor32_1_0, cache-ID = 1f0e2825f528e55d; cache size = 0.408 MB.
+export_ip_user_files -of_objects [get_files C:/Users/lqy/Desktop/ALU/ALU.srcs/sources_1/bd/ALU/ALU.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/lqy/Desktop/ALU/ALU.srcs/sources_1/bd/ALU/ALU.bd]
+export_simulation -of_objects [get_files C:/Users/lqy/Desktop/ALU/ALU.srcs/sources_1/bd/ALU/ALU.bd] -directory C:/Users/lqy/Desktop/ALU/ALU.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/lqy/Desktop/ALU/ALU.ip_user_files -ipstatic_source_dir C:/Users/lqy/Desktop/ALU/ALU.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/lqy/Desktop/ALU/ALU.cache/compile_simlib/modelsim} {questa=C:/Users/lqy/Desktop/ALU/ALU.cache/compile_simlib/questa} {riviera=C:/Users/lqy/Desktop/ALU/ALU.cache/compile_simlib/riviera} {activehdl=C:/Users/lqy/Desktop/ALU/ALU.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+make_wrapper -files [get_files C:/Users/lqy/Desktop/ALU/ALU.srcs/sources_1/bd/ALU/ALU.bd] -top
+add_files -norecurse c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/hdl/ALU_wrapper.v
+export_ip_user_files -of_objects  [get_files C:/Users/lqy/Desktop/ALU/ALU_Structrual_behav.wcfg] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 C:/Users/lqy/Desktop/ALU/ALU_Structrual_behav.wcfg
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'ALU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-12490] The selected simulation model for 'ALU_xlslice_2_0' IP changed to 'rtl' from '', the simulation run directory will be deleted.
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/lqy/Desktop/ALU/ALU.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Vivado/2023.1/data/xsim/xsim.ini' copied to run dir:'C:/Users/lqy/Desktop/ALU/ALU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'ALU_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/lqy/Desktop/ALU/ALU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj ALU_tb_vlog.prj"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/sim/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ipshared/f261/or_bit_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module or_bit_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_or_bit_32_0_0_1/sim/ALU_or_bit_32_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_or_bit_32_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ipshared/8893/MUX8T1_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX8T1_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_MUX8T1_32_0_0_1/sim/ALU_MUX8T1_32_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_MUX8T1_32_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ipshared/2f3b/and32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module and32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_and32_0_0_1/sim/ALU_and32_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_and32_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ipshared/326e/or32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module or32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_or32_0_0_1/sim/ALU_or32_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_or32_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_xlslice_0_0_1/sim/ALU_xlslice_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_xlslice_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ipshared/21e4/xor32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xor32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_xor32_0_0_1/sim/ALU_xor32_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_xor32_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ipshared/6e8d/nor32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module nor32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_nor32_0_0_1/sim/ALU_nor32_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_nor32_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ipshared/bef6/srl32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module srl32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_srl32_0_0_1/sim/ALU_srl32_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_srl32_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ipshared/69d3/addc_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module addc_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_addc_32_0_0_1/sim/ALU_addc_32_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_addc_32_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_xlconcat_0_0_1/sim/ALU_xlconcat_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_xlconcat_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ipshared/d8f1/SignalExt_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SignalExt_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_SignalExt_32_0_0_1/sim/ALU_SignalExt_32_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_SignalExt_32_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_xor32_1_0_1/sim/ALU_xor32_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_xor32_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_xlslice_1_0_1/sim/ALU_xlslice_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_xlslice_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_xlconstant_0_0_1/sim/ALU_xlconstant_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_xlconstant_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/ip/ALU_xlslice_2_0/sim/ALU_xlslice_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_xlslice_2_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/hdl/ALU_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lqy/Desktop/ALU/ALU.srcs/sim_1/new/ALU_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lqy/Desktop/ALU/ALU.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 2657.430 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/lqy/Desktop/ALU/ALU.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlslice_v1_0_2 -L xlconcat_v2_1_4 -L xlconstant_v1_1_7 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot ALU_tb_behav xil_defaultlib.ALU_tb xil_defaultlib.glbl -log elaborate.log"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlslice_v1_0_2 -L xlconcat_v2_1_4 -L xlconstant_v1_1_7 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot ALU_tb_behav xil_defaultlib.ALU_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.MUX8T1_32
+Compiling module xil_defaultlib.ALU_MUX8T1_32_0_0
+Compiling module xil_defaultlib.SignalExt_32
+Compiling module xil_defaultlib.ALU_SignalExt_32_0_0
+Compiling module xil_defaultlib.addc_32
+Compiling module xil_defaultlib.ALU_addc_32_0_0
+Compiling module xil_defaultlib.and32
+Compiling module xil_defaultlib.ALU_and32_0_0
+Compiling module xil_defaultlib.nor32
+Compiling module xil_defaultlib.ALU_nor32_0_0
+Compiling module xil_defaultlib.or32
+Compiling module xil_defaultlib.ALU_or32_0_0
+Compiling module xil_defaultlib.or_bit_32
+Compiling module xil_defaultlib.ALU_or_bit_32_0_0
+Compiling module xil_defaultlib.srl32
+Compiling module xil_defaultlib.ALU_srl32_0_0
+Compiling module xlconcat_v2_1_4.xlconcat_v2_1_4_xlconcat(IN1_WID...
+Compiling module xil_defaultlib.ALU_xlconcat_0_0
+Compiling module xlconstant_v1_1_7.xlconstant_v1_1_7_xlconstant(CON...
+Compiling module xil_defaultlib.ALU_xlconstant_0_0
+Compiling module xlslice_v1_0_2.xlslice_v1_0_2_xlslice(DIN_WIDTH...
+Compiling module xil_defaultlib.ALU_xlslice_0_0
+Compiling module xlslice_v1_0_2.xlslice_v1_0_2_xlslice(DIN_WIDTH...
+Compiling module xil_defaultlib.ALU_xlslice_2_0
+Compiling module xlslice_v1_0_2.xlslice_v1_0_2_xlslice(DIN_WIDTH...
+Compiling module xil_defaultlib.ALU_xlslice_1_0
+Compiling module xil_defaultlib.xor32
+Compiling module xil_defaultlib.ALU_xor32_0_0
+Compiling module xil_defaultlib.ALU_xor32_1_0
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.ALU_wrapper
+Compiling module xil_defaultlib.ALU_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot ALU_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/lqy/Desktop/ALU/ALU.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ALU_tb_behav -key {Behavioral:sim_1:Functional:ALU_tb} -tclbatch {ALU_tb.tcl} -protoinst "protoinst_files/ALU.protoinst" -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/ALU.protoinst
+Time resolution is 1 ps
+source ALU_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ALU_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:13 . Memory (MB): peak = 2657.430 ; gain = 0.000
+open_bd_design {C:/Users/lqy/Desktop/ALU/ALU.srcs/sources_1/bd/ALU/ALU.bd}
+set_property is_enabled false [get_files  c:/Users/lqy/Desktop/ALU/ALU.gen/sources_1/bd/ALU/hdl/ALU_wrapper.v]
+close_bd_design [get_bd_designs ALU]
+set_property is_enabled false [get_files  C:/Users/lqy/Desktop/ALU/ALU.srcs/sources_1/bd/ALU/ALU.bd]
+set_property is_enabled true [get_files  C:/Users/lqy/Desktop/ALU/ALU.srcs/sources_1/new/ALU_Wrapper.v]
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'ALU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/lqy/Desktop/ALU/ALU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Vivado/2023.1/data/xsim/xsim.ini' copied to run dir:'C:/Users/lqy/Desktop/ALU/ALU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'ALU_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/lqy/Desktop/ALU/ALU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj ALU_tb_vlog.prj"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lqy/Desktop/ALU/ALU.srcs/sources_1/new/ALU_Wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_wrapper
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/lqy/Desktop/ALU/ALU.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot ALU_tb_behav xil_defaultlib.ALU_tb xil_defaultlib.glbl -log elaborate.log"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot ALU_tb_behav xil_defaultlib.ALU_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ALU_wrapper
+Compiling module xil_defaultlib.ALU_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot ALU_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/lqy/Desktop/ALU/ALU.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ALU_tb_behav -key {Behavioral:sim_1:Functional:ALU_tb} -tclbatch {ALU_tb.tcl} -protoinst "protoinst_files/ALU.protoinst" -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/ALU.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/ALU.protoinst for the following reason(s):
+There are no instances of module "ALU" in the design.
+
+Time resolution is 1 ps
+source ALU_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ALU_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 2657.430 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Mar  8 15:33:51 2024...

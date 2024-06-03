@@ -1,0 +1,21 @@
+Encrypting by using 128-bit seed_key...
+plaintext=A Quick BrownFox
+seed_key=0123456789ABCDEF
+ciphertext=C037F19D4AEA8E7172B176B9D4CE1D62
+Decrypting...
+plaintext=A Quick BrownFox
+==========================================
+Encrypting by using 192-bit seed_key...
+plaintext=A Quick BrownFox
+seed_key=0123456789ABCDEF012345678
+ciphertext=F51C8DD5F7052264650126DC70D402F5
+Decrypting...
+plaintext=A Quick BrownFox
+==========================================
+Encrypting by using 256-bit seed_key...
+plaintext=A Quick BrownFox
+seed_key=0123456789ABCDEF0123456789ABCDEF
+ciphertext=2687C0D61E803718F6D11A0384C81229
+Decrypting...
+plaintext=A Quick BrownFox
+==========================================

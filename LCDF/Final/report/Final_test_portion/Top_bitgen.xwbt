@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/ise/Final_test_portion/Top.ncd
+OUTFILE=/home/ise/Final_test_portion/Top.bit
+FAMILY=Kintex7
+PART=xc7k160t-1ffg676
+WORKINGDIR=/home/ise/Final_test_portion
+LICENSE=WebPack
+USER_INFO=8416_11442_1478797146_620
