@@ -58,6 +58,16 @@ This homework is about **copy constructor**. The content is not difficult, but I
 
 This homework is about **operator overloading**, and very easy to finish it after you fully grasp the knowledge.
 
+### HW13
+
+This homwwork is about **Template** and very easy to finish.
+
+### HW14
+
+This homework is about **Exception** and very easy to finish too.
+
+> 6-1 is very disgusting, you will know it after you do it.
+
 ---
 
 ## Labs

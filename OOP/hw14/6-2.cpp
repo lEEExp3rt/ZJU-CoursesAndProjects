@@ -5,7 +5,7 @@ using namespace std;
 double division(int a, int b)
 {
     if (b == 0) throw ("Divided by zero!");
-    return (double)a / b;
+    return a / b;
 }
 
 int main ()
