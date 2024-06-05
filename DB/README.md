@@ -44,6 +44,30 @@ In this homework you are required to make a lot of exercises about the **Functio
 
 In this homework you are asked for some easy questions about disks and memory about database.
 
+* Contents range: Chapter 12 && Chapter 13
+
+### hw9
+
+In this homework you are asked for some questions about **index**, mainly for *B_Plus_Tree*.
+
+* Contents range: Chapter 14
+
+### HW10
+
+No homework 10.
+
+### HW11
+
+Homework 11 is about **Recovery System**. After you learn how recovery system in DBMS you will quickly figure it out.
+
+* Contents range: Chapter 19
+
+### HW 12
+
+This homework is about **Query Processing**.
+
+* Contents range: Chapter 15
+
 ---
 
 ## Labs
@@ -73,3 +97,17 @@ In this lab some simple usage of privileges and user account are introduced and 
 This is a huge lab about *LibraryManagementSystem*, and **JDBC** is mainly used in this lab. You are required to first implement the java codes to implement a library management system, and all previous learnt knowledge about database is used here. After you finish the java codes and pass all the test samples, you can finish the bonus part: frontend.
 
 > WARNING: very time-consuming!!!
+
+### MiniSQL
+
+This is the hazardous biggest project in Sophomore grade, the well-known project ***MINISQL***!!!
+
+The first ever-known biggest project, including constructing a mini SQL application like *MySQL* and so on. Students need to develop this mini database system by constructing from the basic theory, like **buffer management** and **disk management**, then by building **index**, **syntax parser** and so on you can finally make it a successful mini database system.
+
+But a lot of work needs to be done, and several tests are there to be passed.
+
+First you need to understand how a database system works in physical level, then develop it from both physical level and logic level. 
+
+Collaborating is first introduced in my CS career.
+
+> The most time-consuming and mental torture!!! :warning:
