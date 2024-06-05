@@ -104,6 +104,10 @@ In this lab you are required to implement a `Fraction` class using **operator ov
 
 > In the class you need to use `long long` to store the data rather than `int`, which will result in error.
 
+### Lab6
+
+In this lab you are required to implement a template `Vector` class using **template**. It is easy to finish.
+
 ---
 
 ## Projects
