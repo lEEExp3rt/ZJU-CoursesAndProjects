@@ -72,6 +72,10 @@ This homework is about **Exception** and very easy to finish too.
 
 This homework is about **Smart Pointer**.
 
+Note that there is existing code you can directly refer to, in the powerpoint given by WK. 😆
+
+> The operator overloadding `operator+` is very disgusting.
+
 ---
 
 ## Labs
