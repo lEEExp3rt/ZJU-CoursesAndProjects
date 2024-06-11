@@ -6,7 +6,7 @@
 
 * This course `ADS2024` is short for *Advanced Data Structure*.
 
-* Course semester: 2024 Spring. 
+* Course semester: 2024 Spring.
 
 ---
 
@@ -26,9 +26,8 @@ This homework needs you to **implement a B+ tree** with operations like `initial
 
 This homework requires you to calculate the similarity between 2 given files. Each file contains several words, and you add the words by inverted index to calculate their vector of similarity, then you calculate the file similarity from the given equivelent. Not much thinking is needed compared to other algorithm homeworks.
 
-> To simplify the coding task, I made it in C++, which provides me with several convinent libs like `<vector>`, `<map>` and so on, saving a lot time to construct in C
-
-> The tough thing is that in this task you need to make a `stemming` algorithm, so words with different forms should be calculated in the same word.
+> 1. To simplify the coding task, I made it in C++, which provides me with several convinent libs like `<vector>`, `<map>` and so on, saving a lot time to construct in C
+> 2. The tough thing is that in this task you need to make a `stemming` algorithm, so words with different forms should be calculated in the same word.
 
 ### HW4: Merge Two Leftist Heaps
 

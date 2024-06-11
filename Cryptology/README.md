@@ -36,7 +36,7 @@ You are required to implement 2 parts:
 By completely understanding the algorithm and how the given code works you can finally make it.
 
 > Forgetting to initialize the arrays `bufout` and `outblock` will contribute to error answer!!! :angry:
-> It's really abstract to fully understand the design of the 3-dimension arrays. 
+> It's really abstract to fully understand the design of the 3-dimension arrays.
 
 ### HW5
 

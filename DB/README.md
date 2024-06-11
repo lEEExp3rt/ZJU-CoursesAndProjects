@@ -26,7 +26,7 @@ Uses of SQL sentences to make selections. Very trivial and time-consuming!!! :an
 
 ### hw4
 
-Still some SQL usage in this homework. 
+Still some SQL usage in this homework.
 
 ### hw5
 
@@ -106,8 +106,10 @@ The first ever-known biggest project, including constructing a mini SQL applicat
 
 But a lot of work needs to be done, and several tests are there to be passed.
 
-First you need to understand how a database system works in physical level, then develop it from both physical level and logic level. 
+First you need to understand how a database system works in physical level, then develop it from both physical level and logic level.
 
 Collaborating is first introduced in my CS career.
+
+The project is not added into this repository, see at [minisql](https://github.com/birchtree2/minisql.git)
 
 > The most time-consuming and mental torture!!! :warning:

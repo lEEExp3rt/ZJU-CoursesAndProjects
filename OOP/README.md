@@ -14,7 +14,7 @@
 
 ### HW1
 
-First introduced to C++ and basic grammer about C++ is taught in the class. Mainly about `string` type, `I/O` format. But how to use them needs practice, so the homework is worthwhile. 
+First introduced to C++ and basic grammer about C++ is taught in the class. Mainly about `string` type, `I/O` format. But how to use them needs practice, so the homework is worthwhile.
 
 ### HW2
 
@@ -30,7 +30,7 @@ This homework is about basic definition and implementation of `class`. The 4 pro
 
 This homework contains some basic operations about `class`, and very easy work to do.
 
-> :warning: `6-4.cpp` is a little trivial 
+> :warning: `6-4.cpp` is a little trivial.
 
 ### HW6
 
@@ -68,13 +68,17 @@ This homework is about **Exception** and very easy to finish too.
 
 > 6-1 is very disgusting, you will know it after you do it.
 
+### HW15
+
+This homework is about **Smart Pointer**.
+
 ---
 
 ## Labs
 
 ### Lab1
 
-The first lab is called *Personal_dairy*, and it is a **multi-files programming lab**, a huge one! 
+The first lab is called *Personal_dairy*, and it is a **multi-files programming lab**, a huge one!
 
 Some basic usage of `<fstream>` and `<string>` are well used in this project, but most of them are not taught in the class, so you know, **self-learning** once again saved your life from DDL.
 
@@ -96,7 +100,7 @@ In this lab you are required to implement 2 class using basic knowledge of `comp
 
 In this lab you are required to implement 3 basic classes so that a given `main.cpp` can function properly. **Inheritance** and **Polymorphism** is mainly used. The work is not difficult.
 
-> :angry: `inline` will contribute to compile error!!! 
+> :angry: `inline` will contribute to compile error!!!
 
 ### Lab5
 
@@ -115,3 +119,5 @@ In this lab you are required to implement a template `Vector` class using **temp
 ### Project1
 
 In this project, you are required to implement a CLI `ADIF` file parser with given requirements. Mainly using `string` and `class` and `vector` and `map` is enough to finish this project. BUT it is really time-consuming!!! However, it is really a enjoy to do this huge project.
+
+### Project2
