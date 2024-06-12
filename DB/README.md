@@ -68,6 +68,12 @@ This homework is about **Query Processing**.
 
 * Contents range: Chapter 15
 
+### HW 13
+
+This homework is about **Query Optimazation**.
+
+* Contents range: Chapter 16
+
 ---
 
 ## Labs
