@@ -47,3 +47,9 @@ Several functions need to be finished, so `AES` encryption and decryption can be
 After fully understanding how `AES` works you can quickly finish it.
 
 > The GF($2^8$)'s multiplication is not easy to understand, and debugging process is really annoying!!! :angry:
+
+### HW6
+
+In this homework, you are required to implement `RSA` algorithm using `openssl/rsa.h` and other libraries.
+
+> The version of the teacher Black White's `openssl` is too old and not fit to current version, which makes debugging or even coding very hard!!! :anger:
