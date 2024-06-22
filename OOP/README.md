@@ -125,3 +125,7 @@ In this lab you are required to implement a template `Vector` class using **temp
 In this project, you are required to implement a CLI `ADIF` file parser with given requirements. Mainly using `string` and `class` and `vector` and `map` is enough to finish this project. BUT it is really time-consuming!!! However, it is really a enjoy to do this huge project.
 
 ### Project2
+
+In this project, you are required to implement a simple CLI game called *Adventure*, which is saving a princess in a maze and run, but escaping a monster. It is not difficult to do it.
+
+> By the ddl in 2024-06-22, during the exam week, I finish it 😆
