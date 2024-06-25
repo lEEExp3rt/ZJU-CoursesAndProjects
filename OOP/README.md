@@ -116,6 +116,16 @@ In this lab you are required to implement a `Fraction` class using **operator ov
 
 In this lab you are required to implement a template `Vector` class using **template**. It is easy to finish.
 
+### Bonus
+
+This is a bonus lab work, which can substitute 1 lab with 0 grades.
+
+> I just finished all the work, so it is just a fun to do it.
+
+You are required to implement a very very very simple **java** work in this lab. **JAVA**!!!
+
+Maybe the teacher is not care about it!!!
+
 ---
 
 ## Projects
