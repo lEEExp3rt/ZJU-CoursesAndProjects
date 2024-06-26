@@ -38,7 +38,7 @@ By completely understanding the algorithm and how the given code works you can f
 > Forgetting to initialize the arrays `bufout` and `outblock` will contribute to error answer!!! :angry:
 > It's really abstract to fully understand the design of the 3-dimension arrays.
 
-### HW5
+### HW5: AES
 
 In this homwork you are required to implement `AES` functions to make correct answer.
 
@@ -48,7 +48,7 @@ After fully understanding how `AES` works you can quickly finish it.
 
 > The GF($2^8$)'s multiplication is not easy to understand, and debugging process is really annoying!!! :angry:
 
-### HW6
+### HW6: RSA
 
 In this homework, you are required to implement `RSA` algorithm using `openssl/rsa.h` and other libraries.
 
