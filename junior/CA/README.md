@@ -15,3 +15,9 @@
 ### Lab 1
 
 Re-implement the RV32I ISA using the structure provided with features of **pipeline**, **forwarding** and **stall**
+
+---
+
+### Lab 2
+
+Implement the interruption and exception handling unit on the base of lab 1.
