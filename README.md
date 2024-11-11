@@ -30,3 +30,5 @@ The contents in this repo are listed in time order:
 * DB
 * ADS
 * CA
+* OS
+* CN
