@@ -10,6 +10,20 @@
 
 ---
 
+## Homework
+
+### HW 1
+
+Review pipeline.
+
+### HW 2
+
+Calculate cache penalty.
+
+### HW 3
+
+Use **Scoreboard Algorithm** and **Tomasulo's Algorithm** to calculate execution cycles.
+
 ## Labs
 
 ### Lab 1
