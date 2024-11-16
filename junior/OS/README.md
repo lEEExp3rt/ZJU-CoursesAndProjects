@@ -19,3 +19,7 @@ Environment construction.
 ### Lab 1
 
 **RV64** kernel operating and timer interrupt.
+
+### Lab 2
+
+Process/Thread scheduling.
