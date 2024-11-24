@@ -23,3 +23,7 @@ Environment construction.
 ### Lab 2
 
 Process/Thread scheduling.
+
+### Lab 3
+
+**Virtual Memory** management, and very difficult to do.
