@@ -35,3 +35,9 @@ Re-implement the RV32I ISA using the structure provided with features of **pipel
 ### Lab 2
 
 Implement the interruption and exception handling unit on the base of lab 1.
+
+### Lab 3
+
+Implement **Branch Prediction Buffer** based on RV32.
+
+> A little difficult.
