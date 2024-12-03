@@ -1,4 +1,0 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lqy/Desktop/REGS/REGS.srcs/sources_1/new/regs.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module regs
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lqy/Desktop/REGS/REGS.srcs/sim_1/new/regs_tb.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module Regs_tb
