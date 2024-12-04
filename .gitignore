@@ -1,3 +1,4 @@
 .vscode/
 .idea/
 *.Identifier
+.gdb_history
