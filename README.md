@@ -18,8 +18,6 @@ I notice that the career of Computer Science is not easy, so you can see my grow
 
 The contents in this repo are listed in time order:
 
-* C-Programming
-* CTF
 * FDS
 * LCDF
 * NA
