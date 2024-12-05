@@ -41,3 +41,7 @@ Implement the interruption and exception handling unit on the base of lab 1.
 Implement **Branch Prediction Buffer** based on RV32.
 
 > A little difficult.
+
+### Lab 4
+
+Implement **Cache** and **CMU**. Very quick.
