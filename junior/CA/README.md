@@ -45,3 +45,7 @@ Implement **Branch Prediction Buffer** based on RV32.
 ### Lab 4
 
 Implement **Cache** and **CMU**. Very quick.
+
+### Lab 5
+
+Implement **Scoreboard** algorithm.
