@@ -1,0 +1,109 @@
+R5#show running-config
+Building configuration...
+
+Current configuration : 1529 bytes
+!
+version 12.3
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+!
+hostname R5
+!
+boot-start-marker
+boot-end-marker
+!
+!
+no aaa new-model
+ip subnet-zero
+no ip icmp rate-limit unreachable
+ip tcp synwait-time 5
+!
+!
+no ip domain lookup
+!
+ip cef
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+interface Loopback0
+ ip address 13.1.50.1 255.255.255.252
+!
+interface FastEthernet0/0
+ ip address 13.1.0.1 255.255.255.0
+ duplex auto
+ speed auto
+!
+interface FastEthernet0/1
+ ip address 13.1.1.5 255.255.255.0
+ duplex auto
+ speed auto
+!
+interface Serial2/0
+ no ip address
+ shutdown
+ serial restart-delay 0
+!
+interface Serial2/1
+ no ip address
+ encapsulation frame-relay
+ serial restart-delay 0
+ frame-relay lmi-type ansi
+!
+interface Serial2/1.1 multipoint
+ ip address 13.1.2.51 255.255.255.0
+ ip ospf network point-to-multipoint
+ frame-relay interface-dlci 101
+!
+interface Serial2/1.2 multipoint
+ ip address 13.1.2.52 255.255.255.0
+ ip ospf network point-to-multipoint
+ frame-relay interface-dlci 102
+!
+interface Serial2/2
+ no ip address
+ shutdown
+ serial restart-delay 0
+!
+interface Serial2/3
+ no ip address
+ shutdown
+ serial restart-delay 0
+!
+router ospf 73
+ log-adjacency-changes
+ network 13.1.0.0 0.0.255.255 area 1
+!
+no ip http server
+no ip http secure-server
+ip classless
+!
+!
+no cdp log mismatch duplex
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+line con 0
+ exec-timeout 0 0

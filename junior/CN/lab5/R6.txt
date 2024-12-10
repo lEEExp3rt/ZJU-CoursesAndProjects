@@ -1,0 +1,57 @@
+R6#show running-config
+Building configuration...
+
+Current configuration : 964 bytes
+!
+version 12.3
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+!
+hostname R6
+!
+boot-start-marker
+boot-end-marker
+!
+!
+no aaa new-model
+ip subnet-zero
+no ip icmp rate-limit unreachable
+ip tcp synwait-time 5
+!
+!
+no ip domain lookup
+!
+ip cef
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+interface Loopback0
+ ip address 13.0.60.1 255.255.255.252
+!
+interface FastEthernet0/0
+ ip address 13.0.123.252 255.255.255.248
+ duplex auto
+ speed auto
+!
+interface FastEthernet0/1
+ ip address 13.2.1.6 255.255.255.0
+ duplex auto
+ speed auto
+!
+router ospf 73
