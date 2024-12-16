@@ -30,6 +30,18 @@ Using **GNS3** to configure **static routing**.
 
 > VERY TIME-CONSUMING!!!.
 
+### Lab 5
+
+Using **GNS3** to configure **OSPF**.
+
+> This lab takes about 7 hours to fully complete it.
+
+### Lab 6
+
+Using **GNS3** to configure **BGP**.
+
+> This lab takes about 7 hours to finish.
+
 ### Lab 7
 
 Using **Socket** APIs to build a client-server system with standard C/C++ libraries, and add a lot of features.

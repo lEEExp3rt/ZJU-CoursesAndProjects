@@ -1,0 +1,99 @@
+R8#show running-config
+Building configuration...
+
+Current configuration : 1177 bytes
+!
+version 12.3
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+!
+hostname R8
+!
+boot-start-marker
+boot-end-marker
+!
+!
+no aaa new-model
+ip subnet-zero
+no ip icmp rate-limit unreachable
+ip tcp synwait-time 5
+!
+!
+no ip domain lookup
+!
+ip cef
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+interface FastEthernet0/0
+ no ip address
+ shutdown
+ duplex auto
+ speed auto
+!
+interface FastEthernet0/1
+ ip address 192.73.78.8 255.255.255.0
+ duplex auto
+ speed auto
+!
+interface FastEthernet2/0
+ ip address 192.73.28.8 255.255.255.0
+ duplex auto
+ speed auto
+!
+router bgp 65008
+ no synchronization
+ bgp log-neighbor-changes
+ network 192.73.28.0
+ network 192.73.78.0
+ neighbor 192.73.28.2 remote-as 65002
+ neighbor 192.73.78.7 remote-as 65007
+ neighbor 192.73.78.7 distribute-list 1 out
+ no auto-summary
+!
+no ip http server
+no ip http secure-server
+ip classless
+!
+!
+access-list 1 deny   10.3.3.0 0.0.0.255
+access-list 1 permit any
+no cdp log mismatch duplex
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+line con 0
+ exec-timeout 0 0
+ privilege level 15
+ logging synchronous
+line aux 0
+ exec-timeout 0 0
+ privilege level 15
+ logging synchronous
+line vty 0 4
+ login
+!
+end
