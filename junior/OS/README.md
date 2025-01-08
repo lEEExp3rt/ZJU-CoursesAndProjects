@@ -35,3 +35,21 @@ Process/Thread scheduling.
 ### Lab 5
 
 **Page Fault** and **Fork** syscall implementation.
+
+---
+
+## Homeworks
+
+See in `homeworks/`.
+
+---
+
+## Quizzes
+
+See in `quizzes/`.
+
+---
+
+## Final
+
+Cheating sheet.
