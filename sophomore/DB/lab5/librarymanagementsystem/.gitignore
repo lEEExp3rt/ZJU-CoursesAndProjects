@@ -1,0 +1,61 @@
+# Build related
+target/
+out/
+build/
+
+# Maven
+.mvn/
+
+# Gradle
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+
+# Spring Boot related
+spring-boot-devtools.properties
+*.log
+
+# Vue dependencies
+node_modules/
+
+# Build related
+dist/
+dist-ssr/
+*.local
+
+# Local environment files
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Cache files
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Eclipse
+.settings/
+.classpath
+.project
+.factorypath
+
+# VS Code
+.vscode/
+!.vscode/extensions.json
+
+# Other files
+*.log
+*.tmp
+*.temp
